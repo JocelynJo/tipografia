@@ -1,0 +1,80 @@
+.menu{
+	width: 1200px;
+	margin: 20px;
+	padding: 10px;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src:url('https://fonts.googleapis.com/css?family=Amatic+SC|Hind+Madurai') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Amatic SC'
+}
+.rec{
+	width: 200px;
+	height: 300px;
+	border-radius: 10px 10px 10px 10px;
+	border:3px whitesmoke solid;
+	display: inline-table;
+	text-align: center;
+	padding: 20px 10px 10px
+	10px;
+
+}
+
+.rec{ 
+	background-color:white;
+	word-wrap:break-word;
+	transition-property: color, transform;
+	transition-duration: 2s, 3s;
+	transition-timing-function: ease;
+		
+}
+
+.rec:hover{
+	border:3px #6ff0dd solid;
+	color:#6ff0dd;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.ico{
+	color: #a6a8a9;
+	font-size: 60px;
+}
+
+h2{
+	font-family: 'Amatic SC',cursive;
+}
+h5:hover{
+	color: #6ff0dd;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+h5{
+	font-family: 'Hind Madurai';
+	color:#a6a8a9;
+	word-wrap:break-word;
+	transition-property: color;
+	transition-duration: 2s, 3s;
+	transition-timing-function: ease;
+}
+.texto:hover{
+	color:#6ff0dd;
+	word-wrap:break-word;
+	transition-property: color;
+	transition-duration: 2s, 3s;
+	transition-timing-function: ease;
+}
+.texto{
+	font-family: 'Hind Madurai';
+	color:#a6a8a9;
+	font-size: 13px;
+	word-wrap:break-word;
+	transition-property: color;
+	transition-duration: 2s, 3s;
+	transition-timing-function: ease;
+}
